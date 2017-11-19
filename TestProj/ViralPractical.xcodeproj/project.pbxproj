@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E07AD0BE1FAC513100A8BB4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0BD1FAC513100A8BB4C /* AppDelegate.m */; };
+		E07AD0C11FAC513100A8BB4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0C01FAC513100A8BB4C /* ViewController.m */; };
+		E07AD0C41FAC513200A8BB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07AD0C21FAC513200A8BB4C /* Main.storyboard */; };
+		E07AD0C61FAC513200A8BB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07AD0C51FAC513200A8BB4C /* Assets.xcassets */; };
+		E07AD0C91FAC513200A8BB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07AD0C71FAC513200A8BB4C /* LaunchScreen.storyboard */; };
+		E07AD0CC1FAC513200A8BB4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0CB1FAC513200A8BB4C /* main.m */; };
+		E07AD0D41FAC529C00A8BB4C /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0D31FAC529C00A8BB4C /* ContactsViewController.m */; };
+		E07AD0D71FAC52AD00A8BB4C /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0D61FAC52AD00A8BB4C /* PhotosViewController.m */; };
+		E07AD0DA1FAC53F600A8BB4C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0D91FAC53F600A8BB4C /* HomeViewController.m */; };
+		E07AD0EB1FAC9B4500A8BB4C /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0E01FAC99F500A8BB4C /* JTSAnimatedGIFUtility.m */; };
+		E07AD0EC1FAC9B4500A8BB4C /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0E21FAC99F500A8BB4C /* JTSImageInfo.m */; };
+		E07AD0ED1FAC9B4500A8BB4C /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0E41FAC99F500A8BB4C /* JTSImageViewController.m */; };
+		E07AD0EE1FAC9B4500A8BB4C /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0E61FAC99F500A8BB4C /* JTSSimpleImageDownloader.m */; };
+		E07AD0EF1FAC9B4500A8BB4C /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0E81FAC99F500A8BB4C /* UIApplication+JTSImageViewController.m */; };
+		E07AD0F01FAC9B4500A8BB4C /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E07AD0EA1FAC99F500A8BB4C /* UIImage+JTSImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E07AD0B91FAC513100A8BB4C /* ViralPractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViralPractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07AD0BC1FAC513100A8BB4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E07AD0BD1FAC513100A8BB4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E07AD0BF1FAC513100A8BB4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E07AD0C01FAC513100A8BB4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E07AD0C31FAC513200A8BB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E07AD0C51FAC513200A8BB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E07AD0C81FAC513200A8BB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E07AD0CA1FAC513200A8BB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E07AD0CB1FAC513200A8BB4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E07AD0D21FAC529C00A8BB4C /* ContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		E07AD0D31FAC529C00A8BB4C /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		E07AD0D51FAC52AD00A8BB4C /* PhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		E07AD0D61FAC52AD00A8BB4C /* PhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		E07AD0D81FAC53F600A8BB4C /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E07AD0D91FAC53F600A8BB4C /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E07AD0DF1FAC99F500A8BB4C /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
+		E07AD0E01FAC99F500A8BB4C /* JTSAnimatedGIFUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTSAnimatedGIFUtility.m; sourceTree = "<group>"; };
+		E07AD0E11FAC99F500A8BB4C /* JTSImageInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTSImageInfo.h; sourceTree = "<group>"; };
+		E07AD0E21FAC99F500A8BB4C /* JTSImageInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTSImageInfo.m; sourceTree = "<group>"; };
+		E07AD0E31FAC99F500A8BB4C /* JTSImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTSImageViewController.h; sourceTree = "<group>"; };
+		E07AD0E41FAC99F500A8BB4C /* JTSImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTSImageViewController.m; sourceTree = "<group>"; };
+		E07AD0E51FAC99F500A8BB4C /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
+		E07AD0E61FAC99F500A8BB4C /* JTSSimpleImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTSSimpleImageDownloader.m; sourceTree = "<group>"; };
+		E07AD0E71FAC99F500A8BB4C /* UIApplication+JTSImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JTSImageViewController.h"; sourceTree = "<group>"; };
+		E07AD0E81FAC99F500A8BB4C /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
+		E07AD0E91FAC99F500A8BB4C /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
+		E07AD0EA1FAC99F500A8BB4C /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E07AD0B61FAC513100A8BB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E07AD0B01FAC513100A8BB4C = {
+			isa = PBXGroup;
+			children = (
+				E07AD0BB1FAC513100A8BB4C /* ViralPractical */,
+				E07AD0BA1FAC513100A8BB4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E07AD0BA1FAC513100A8BB4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E07AD0B91FAC513100A8BB4C /* ViralPractical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E07AD0BB1FAC513100A8BB4C /* ViralPractical */ = {
+			isa = PBXGroup;
+			children = (
+				E07AD0DD1FAC99F500A8BB4C /* External */,
+				E07AD0BC1FAC513100A8BB4C /* AppDelegate.h */,
+				E07AD0BD1FAC513100A8BB4C /* AppDelegate.m */,
+				E07AD0BF1FAC513100A8BB4C /* ViewController.h */,
+				E07AD0C01FAC513100A8BB4C /* ViewController.m */,
+				E07AD0D81FAC53F600A8BB4C /* HomeViewController.h */,
+				E07AD0D91FAC53F600A8BB4C /* HomeViewController.m */,
+				E07AD0D21FAC529C00A8BB4C /* ContactsViewController.h */,
+				E07AD0D31FAC529C00A8BB4C /* ContactsViewController.m */,
+				E07AD0D51FAC52AD00A8BB4C /* PhotosViewController.h */,
+				E07AD0D61FAC52AD00A8BB4C /* PhotosViewController.m */,
+				E07AD0C21FAC513200A8BB4C /* Main.storyboard */,
+				E07AD0C51FAC513200A8BB4C /* Assets.xcassets */,
+				E07AD0C71FAC513200A8BB4C /* LaunchScreen.storyboard */,
+				E07AD0CA1FAC513200A8BB4C /* Info.plist */,
+				E07AD0CB1FAC513200A8BB4C /* main.m */,
+			);
+			path = ViralPractical;
+			sourceTree = "<group>";
+		};
+		E07AD0DD1FAC99F500A8BB4C /* External */ = {
+			isa = PBXGroup;
+			children = (
+				E07AD0DE1FAC99F500A8BB4C /* JTSImageVC */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		E07AD0DE1FAC99F500A8BB4C /* JTSImageVC */ = {
+			isa = PBXGroup;
+			children = (
+				E07AD0DF1FAC99F500A8BB4C /* JTSAnimatedGIFUtility.h */,
+				E07AD0E01FAC99F500A8BB4C /* JTSAnimatedGIFUtility.m */,
+				E07AD0E11FAC99F500A8BB4C /* JTSImageInfo.h */,
+				E07AD0E21FAC99F500A8BB4C /* JTSImageInfo.m */,
+				E07AD0E31FAC99F500A8BB4C /* JTSImageViewController.h */,
+				E07AD0E41FAC99F500A8BB4C /* JTSImageViewController.m */,
+				E07AD0E51FAC99F500A8BB4C /* JTSSimpleImageDownloader.h */,
+				E07AD0E61FAC99F500A8BB4C /* JTSSimpleImageDownloader.m */,
+				E07AD0E71FAC99F500A8BB4C /* UIApplication+JTSImageViewController.h */,
+				E07AD0E81FAC99F500A8BB4C /* UIApplication+JTSImageViewController.m */,
+				E07AD0E91FAC99F500A8BB4C /* UIImage+JTSImageEffects.h */,
+				E07AD0EA1FAC99F500A8BB4C /* UIImage+JTSImageEffects.m */,
+			);
+			path = JTSImageVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E07AD0B81FAC513100A8BB4C /* ViralPractical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07AD0CF1FAC513200A8BB4C /* Build configuration list for PBXNativeTarget "ViralPractical" */;
+			buildPhases = (
+				E07AD0B51FAC513100A8BB4C /* Sources */,
+				E07AD0B61FAC513100A8BB4C /* Frameworks */,
+				E07AD0B71FAC513100A8BB4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViralPractical;
+			productName = ViralPractical;
+			productReference = E07AD0B91FAC513100A8BB4C /* ViralPractical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E07AD0B11FAC513100A8BB4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ISM;
+				TargetAttributes = {
+					E07AD0B81FAC513100A8BB4C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E07AD0B41FAC513100A8BB4C /* Build configuration list for PBXProject "ViralPractical" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E07AD0B01FAC513100A8BB4C;
+			productRefGroup = E07AD0BA1FAC513100A8BB4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E07AD0B81FAC513100A8BB4C /* ViralPractical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E07AD0B71FAC513100A8BB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07AD0C91FAC513200A8BB4C /* LaunchScreen.storyboard in Resources */,
+				E07AD0C61FAC513200A8BB4C /* Assets.xcassets in Resources */,
+				E07AD0C41FAC513200A8BB4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E07AD0B51FAC513100A8BB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07AD0EB1FAC9B4500A8BB4C /* JTSAnimatedGIFUtility.m in Sources */,
+				E07AD0EC1FAC9B4500A8BB4C /* JTSImageInfo.m in Sources */,
+				E07AD0ED1FAC9B4500A8BB4C /* JTSImageViewController.m in Sources */,
+				E07AD0EE1FAC9B4500A8BB4C /* JTSSimpleImageDownloader.m in Sources */,
+				E07AD0EF1FAC9B4500A8BB4C /* UIApplication+JTSImageViewController.m in Sources */,
+				E07AD0F01FAC9B4500A8BB4C /* UIImage+JTSImageEffects.m in Sources */,
+				E07AD0C11FAC513100A8BB4C /* ViewController.m in Sources */,
+				E07AD0D41FAC529C00A8BB4C /* ContactsViewController.m in Sources */,
+				E07AD0CC1FAC513200A8BB4C /* main.m in Sources */,
+				E07AD0D71FAC52AD00A8BB4C /* PhotosViewController.m in Sources */,
+				E07AD0BE1FAC513100A8BB4C /* AppDelegate.m in Sources */,
+				E07AD0DA1FAC53F600A8BB4C /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E07AD0C21FAC513200A8BB4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E07AD0C31FAC513200A8BB4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E07AD0C71FAC513200A8BB4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E07AD0C81FAC513200A8BB4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E07AD0CD1FAC513200A8BB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E07AD0CE1FAC513200A8BB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E07AD0D01FAC513200A8BB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55C5RL5ME7;
+				INFOPLIST_FILE = ViralPractical/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ism.ViralPractical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E07AD0D11FAC513200A8BB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55C5RL5ME7;
+				INFOPLIST_FILE = ViralPractical/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ism.ViralPractical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E07AD0B41FAC513100A8BB4C /* Build configuration list for PBXProject "ViralPractical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07AD0CD1FAC513200A8BB4C /* Debug */,
+				E07AD0CE1FAC513200A8BB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07AD0CF1FAC513200A8BB4C /* Build configuration list for PBXNativeTarget "ViralPractical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07AD0D01FAC513200A8BB4C /* Debug */,
+				E07AD0D11FAC513200A8BB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E07AD0B11FAC513100A8BB4C /* Project object */;
+}
